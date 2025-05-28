@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Health Record</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Patient Health Record</h1>
+    
+    <form id="patientForm">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="number" id="age" placeholder="Age" required>
+        <input type="text" id="diagnosis" placeholder="Diagnosis" required>
+        <input type="text" id="medication" placeholder="Medication" required>
+        <input type="text" id="bloodType" placeholder="Blood Type" required>
+        <button type="submit">Add Patient</button>
+    </form>
+
+    <table id="patientTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Diagnosis</th>
+                <th>Medication</th>
+                <th>Blood Type</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
